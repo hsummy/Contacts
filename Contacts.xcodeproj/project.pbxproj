@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		E382E5081DF0A4C900C35A43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E382E5071DF0A4C900C35A43 /* main.m */; };
 		E382E50B1DF0A4C900C35A43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E382E50A1DF0A4C900C35A43 /* AppDelegate.m */; };
-		E382E50E1DF0A4C900C35A43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E382E50D1DF0A4C900C35A43 /* ViewController.m */; };
 		E382E5111DF0A4C900C35A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E382E50F1DF0A4C900C35A43 /* Main.storyboard */; };
 		E382E5131DF0A4C900C35A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382E5121DF0A4C900C35A43 /* Assets.xcassets */; };
 		E382E5161DF0A4C900C35A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E382E5141DF0A4C900C35A43 /* LaunchScreen.storyboard */; };
+		E382E51F1DF0A5C700C35A43 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E382E51E1DF0A5C700C35A43 /* ContactTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		E382E5071DF0A4C900C35A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E382E5091DF0A4C900C35A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E382E50A1DF0A4C900C35A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E382E50C1DF0A4C900C35A43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E382E50D1DF0A4C900C35A43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E382E5101DF0A4C900C35A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E382E5121DF0A4C900C35A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E382E5151DF0A4C900C35A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E382E5171DF0A4C900C35A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E382E51D1DF0A5C700C35A43 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		E382E51E1DF0A5C700C35A43 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				E382E5091DF0A4C900C35A43 /* AppDelegate.h */,
 				E382E50A1DF0A4C900C35A43 /* AppDelegate.m */,
-				E382E50C1DF0A4C900C35A43 /* ViewController.h */,
-				E382E50D1DF0A4C900C35A43 /* ViewController.m */,
 				E382E50F1DF0A4C900C35A43 /* Main.storyboard */,
+				E382E51D1DF0A5C700C35A43 /* ContactTableViewController.h */,
+				E382E51E1DF0A5C700C35A43 /* ContactTableViewController.m */,
 				E382E5121DF0A4C900C35A43 /* Assets.xcassets */,
 				E382E5141DF0A4C900C35A43 /* LaunchScreen.storyboard */,
 				E382E5171DF0A4C900C35A43 /* Info.plist */,
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E382E50E1DF0A4C900C35A43 /* ViewController.m in Sources */,
 				E382E50B1DF0A4C900C35A43 /* AppDelegate.m in Sources */,
+				E382E51F1DF0A5C700C35A43 /* ContactTableViewController.m in Sources */,
 				E382E5081DF0A4C900C35A43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
