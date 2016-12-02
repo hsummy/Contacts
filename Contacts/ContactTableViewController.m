@@ -49,15 +49,17 @@
                 NSString *firstName = nameComponents[0];
                 NSString *lastName = nameComponents[1];
                 
-                NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+                NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"];
                 if ([firstName rangeOfCharacterFromSet:set].location != NSNotFound)
                 {
-                NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
+                NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"];
                 if ([lastName rangeOfCharacterFromSet:set].location != NSNotFound)
             {
             returnValue = YES;
             [self.streetTextField becomeFirstResponder];
             }
+        }
+    }
         }
     }
     else if (textField == self.streetTextField)
@@ -127,8 +129,6 @@
             [self.phoneTextField resignFirstResponder];
             }
         }
-    }
-    }
     }
     return returnValue;
 
